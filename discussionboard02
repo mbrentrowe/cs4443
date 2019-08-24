@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Exercise 4.7</title>
+        <style type = "text/css">
+            h1              {  border-style: double;
+                               border-color: blue;
+                               border-width: 8px;
+                               padding: 1em;
+                               text-align: center;  }
+            .floatleft      {  border-style: double;
+                               border-color: red;
+                               border-width: 8px;
+                               padding: .5em;
+                               float: left;
+                               margin-left: 4em;
+                               width: 30%;  }
+            .floatright     {  border-style: double;
+                               border-color: red;
+                               border-width: 8px;
+                               padding: .5em;
+                               float: right;
+                               margin-right: 4em;
+                               width: 30%;  }
+        </style>
+    </head>
+
+    <body>
+        <h1>The CSS Box Model</h1>
+        <p class = "floatleft">
+            All HTML elements can be considered as boxes. In CSS, the term "box model" is
+            used when talking about design and layout. The CSS box model is essentially a 
+            box that wraps around every HTML element. It consists of: margins, borders, 
+            padding, and the actual content.
+        </p>
+
+        <p class = "floatright">
+            Explanation of the different parts. Content is the content of the box where text
+            and images appear. Padding clears an area around the content and is transparent.
+            The border goes around the padding and content. The margin clears an area outside
+            the border and is transparent.
+        </p>
+    </body>
+</html>
